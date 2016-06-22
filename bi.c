@@ -13,7 +13,7 @@ void bin(unsigned int n)
 int main()
 {
      unsigned int n;
-     scanf("%u",n);
+     scanf("%u",&n);
      bin(n);
      return 0;
 }
