@@ -5,9 +5,10 @@ void bin(unsigned int n)
      while(m>0)
      {
          if((n & m)==0)
-         printf("1");
-         else
          printf("0");
+         else
+         printf("1");
+         m=m>>1;
      }
 }
 int main()
